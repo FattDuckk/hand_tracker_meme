@@ -87,6 +87,15 @@ if thumb_up and index_up and middle_up and ring_up and pinky_up:
 
 Add a new entry to the `memes` dict and a new condition in `detect_gesture()` to map it.
 
+## Adding new memes
+
+1. Drop your image into the `images/` folder
+2. Add it to the `memes` dict in `hand_track_hamster.py`:
+```python
+   "gesture_name": cv2.imread("../images/your_image.jpg"),
+```
+3. Add a condition in `detect_gesture()` that returns `"gesture_name"`
+
 ## Tech stack
 
 - [MediaPipe Tasks API](https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker/python) — hand landmark detection
