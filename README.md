@@ -65,7 +65,11 @@ project/
 ## Usage
 
 ```bash
-python src/demo.py
+python src/hand_track_hamster.py
+```
+or
+```bash
+python3 src/hand_track_hamster.py
 ```
 
 - Two windows will open — the webcam feed with skeleton overlay, and the meme display window
@@ -87,3 +91,6 @@ Add a new entry to the `memes` dict and a new condition in `detect_gesture()` to
 
 - [MediaPipe Tasks API](https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker/python) — hand landmark detection
 - [OpenCV](https://opencv.org/) — webcam capture, drawing, windowing
+
+## Credits
+Built with heavy assistance from [Claude](https://claude.ai) (Anthropic).
