@@ -93,4 +93,4 @@ Add a new entry to the `memes` dict and a new condition in `detect_gesture()` to
 - [OpenCV](https://opencv.org/) — webcam capture, drawing, windowing
 
 ## Credits
-Built with heavy assistance from [Claude](https://claude.ai) (Anthropic).
+Built and documented with assistance from [Claude](https://claude.ai) (Anthropic).
