@@ -19,6 +19,7 @@ Hold up a gesture in front of your webcam — the meme window updates instantly 
 ## How it works
 
 Each frame from the webcam is passed to MediaPipe's Hand Landmarker model, which returns 21 landmarks per detected hand. Gesture detection is done by measuring the angle at each finger's middle joint (PIP) — if the angle is greater than 150°, the finger is considered extended. This angle-based approach is more robust than simple y-coordinate comparison, as it works regardless of hand orientation.
+### ⚠️ Press `Q` to quit/exit
 
 ## Setup
 
